@@ -1,0 +1,38 @@
+.ExporterDetailsData {
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin:1rem 1.5rem;
+    color: white;
+}
+
+.ExporterOperationsContainer {
+    padding: 1.5rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1rem;
+    margin: 1.5rem;
+}
+
+.Options {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    
+}
+
+.OptionsBar {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.ExporterDetailsOption {
+    width: 30px;
+    height: 30px;
+    margin : 0 0.5rem;
+    cursor: pointer;
+}
+
+.BackButton {
+    margin-left: 1.5rem;
+}

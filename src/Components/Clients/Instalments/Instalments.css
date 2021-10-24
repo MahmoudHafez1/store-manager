@@ -1,0 +1,38 @@
+.Instalments {
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(0, 0, 0, 0.4);
+}
+.InstalmentsTable {
+    width: 100%;
+    color: white;
+}
+
+.InstalmentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.CreditCard{
+    margin-right: 2rem;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.8);
+}
+
+
+.CreditCardHeader{
+    padding: 0.2rem 1.2rem;
+    color: white;
+    background: rgb(36, 36, 41);
+    margin-bottom: 0;
+    
+}
+
+.CreditCardBody{
+    padding: 0.75rem 0.5rem;
+    color: rgb(36, 36, 41);
+    background: rgb(210, 208, 221);
+}

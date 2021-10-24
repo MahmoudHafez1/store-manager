@@ -1,0 +1,12 @@
+.ClientsBox {
+    background-color:rgba(255,255,255,0.25);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}

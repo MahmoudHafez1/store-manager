@@ -1,0 +1,41 @@
+.EditTools {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    align-items: center;
+    background:  linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%);
+    z-index: 500;
+    position: absolute;
+    top:10%;
+  
+}
+
+.editToolBar {
+    display: none;
+    transition: all 1sec ease-out;
+}
+
+.EditToolsToggle {
+    width: 25px;
+    margin: 5px 5px;
+    transition: all 0.4sec ease-out;
+}
+
+.EditToolsToggle:hover {
+    cursor: pointer;
+}
+
+.EditToolsToggle:active {
+    transform: rotate(-14deg)
+}
+
+
+.EditTool {
+    width: 25px;
+    padding: 2px 2px;
+    margin: 5px 5px;
+}
+
+.EditTool:hover {
+    cursor: pointer;
+}

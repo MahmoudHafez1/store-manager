@@ -1,0 +1,13 @@
+.InstalmentIcon {
+    height: 30px;
+}
+
+.InstalmentIcon:hover {
+    cursor: pointer;
+}
+
+.DoneIcon {
+    height: 30px;
+}
+
+

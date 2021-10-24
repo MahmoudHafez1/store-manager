@@ -1,0 +1,15 @@
+.StoreActions{
+    text-align: right;
+    display: flex;
+    margin: 0.5rem 1rem;
+    justify-content: space-between;
+}
+
+.AddBtn {
+    border: 2px solid ;
+    color: darkred;
+}
+
+.AddBtn:hover  {
+    box-shadow: 0 0 40px 40px darkred inset;
+  }

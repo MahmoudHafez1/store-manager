@@ -1,0 +1,11 @@
+.CardsContainer {
+    background-color:rgba(22,22,22,0.7);
+    margin: 1rem;
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}

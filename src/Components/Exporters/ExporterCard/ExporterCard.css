@@ -1,0 +1,49 @@
+.ExporterCard {
+    background: linear-gradient(to top left, #d7d7d7 80%, #494949 92%);
+    margin: 1rem 1rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: all 0.4s ease-in-out;
+}
+
+.ExporterCardName {
+    font-weight: 500;
+    padding-right: 2rem;
+    font-size: xx-large;
+    color: black;
+    margin: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+.ExporterCardArrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 0.6rem ;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+    
+}
+
+.ExporterCardTools {
+    display: flex;
+}
+
+.ExporterCard:hover {
+    cursor: pointer;
+    
+}
+
+.ExporterCard:hover > .ExporterCardArrow {
+    margin-right: 2rem;
+    opacity: 1;
+}
+
+.ExporterCard:hover > .ExporterCardName {
+   padding-right: 0.5rem;
+   color: #1f115f;
+}
